@@ -1,9 +1,15 @@
 import React from 'react'
-import Header from './components/Header'
+
+import LifecycleA from './components/LifecycleA'
+import Product from './components/Product'
 
 const App = () => {
   return (
-    <div><Header/></div>
+    <div>
+      
+      <LifecycleA/>
+      <Product/>
+    </div>
   )
 }
 
